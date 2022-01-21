@@ -7,32 +7,137 @@
     <title>AUAU Pet Shop</title>
     <!--  ==== CSS link ====   -->
     <link rel="stylesheet" href="style.css" />
+    <!--  ==== icons link ====   -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
   </head>
   <body>
-    <header>
-      <nav>
+    <!--  ==== Info-bar ====   -->
+    <div class="ads">
+      <p>
+        Frete Grátis Acima R$ 299 - Sul e Suldeste | Não serviu? A Primeira
+        troca é gratis | 10% de desconto no boleto | Pague em até 10x sem juros
+      </p>
+    </div>
+    <!--  ==== Header ====   -->
+    <header id="header">
+      <nav id="nav">
         <a class="logo" href="#">
           <img
             class="img-logo"
+            id="btn-mobile"
             src="assets/imgs/header/logo.png"
             alt="logo do petshop"
           />
         </a>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
+
         <ul class="nav-list">
           <li><a href="#">Rações</a></li>
           <li><a href="#">Acessórios</a></li>
           <li><a href="#">Kits</a></li>
           <li><a href="#">Combos</a></li>
-          <li><button>Promoções</button></li>
+          <li><button class="btn-nav">Promoções</button></li>
         </ul>
+
+        <div class="nav-icon">
+          <i class="uil uil-search-alt"></i>
+          <i class="uil uil-heart-sign"></i>
+          <i class="uil uil-shopping-cart"></i>
+        </div>
+
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
     </header>
-    <main></main>
-    <script src="mobile-navbar.js"></script>
+    <!--  ==== section banner ====   -->
+    <section class="banner">
+      <div class="container">
+        <a href="#"
+          ><img
+            class="banner-img"
+            src="assets/imgs/banner/full-banner.png"
+            alt="banner com looks speciais"
+        /></a>
+      </div>
+    </section>
+
+    <!--  ==== section nossos queridinhos ====   -->
+    <section class="nossos-queridinhos">
+      <h3>Nossos Queridinhos</h3>
+    </section>
+
+    <!--  ==== section produtos exclusivos ====   -->
+    <section class="produtos-exclusivos">
+      <!--  ==== carrossel ====   -->
+      <div class="container">
+        <h3>Produtos Exclusivos</h3>
+
+        <div class="carrossel">
+          <div class="container" id="img">
+            <img
+              class="img-carrossel"
+              src="assets/imgs/product/product-1.png"
+              alt=""
+            />
+            <img
+              class="img-carrossel"
+              src="assets/imgs/product/product-2.png"
+              alt=""
+            />
+            <img
+              class="img-carrossel"
+              src="assets/imgs/product/product-2.png"
+              alt=""
+            />
+            <img
+              class="img-carrossel"
+              src="assets/imgs/product/product-1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-logo">
+        <img src="assets/imgs/header/logo.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="sec institucional">
+          <h2>Institucional</h2>
+          <ul class="sci">
+            <li><a href="">Quem somos</a></li>
+            <li><a href="">Missão e Visão</a></li>
+            <li><a href="">Valores</a></li>
+            <li><a href="">Politica de privacidade</a></li>
+          </ul>
+        </div>
+        <div class="sec atendimento">
+          <h2>Atendimento</h2>
+          <ul class="sci">
+            <li><a href="">Entregas</a></li>
+            <li><a href="">Trocas e Devoluções</a></li>
+            <li><a href="">Fale Conosco</a></li>
+            <li><a href="">Duvidas Frequentes</a></li>
+          </ul>
+        </div>
+        <div class="sec confie">
+          <h2>Confie</h2>
+          <div><img src="assets/imgs/footer/jet.png" alt="" /></div>
+          <div><img src="assets/imgs/footer/seal.png" alt="" /></div>
+        </div>
+      </div>
+      <div class="brands">
+        <img src="assets/imgs/footer/brands.png" alt="" />
+      </div>
+    </footer>
+
+    <!--  ==== JS main link ====   -->
+    <script src="main.js"></script>
   </body>
 </html>
