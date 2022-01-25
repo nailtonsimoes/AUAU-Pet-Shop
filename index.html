@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AUAU Pet Shop</title>
-    <!--  ==== CSS link ====   -->
-    <link rel="stylesheet" href="style.css" />
+
     <!--  ==== icons link ====   -->
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+    <!--  ==== carrossel css link ====   -->
+      <link rel="stylesheet" href="   https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+      <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+      <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+
+       <!--  ==== CSS link ====   -->
+    <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <!--  ==== Info-bar ====   -->
@@ -42,9 +50,10 @@
         </ul>
 
         <div class="nav-icon">
-          <i class="uil uil-search-alt"></i>
-          <i class="uil uil-heart-sign"></i>
-          <i class="uil uil-shopping-cart"></i>
+          <div><i class="uil uil-search-alt"></i></div>
+          <div><i class="uil uil-heart-sign"></i></div>
+          <div><i class="uil uil-shopping-cart carrinho"></i></div>
+          
         </div>
 
         <div class="mobile-menu">
@@ -66,43 +75,203 @@
       </div>
     </section>
 
+    <div id="produtos">
+      <h2>Vitrine</h2>
+    </div>
+
+    <div id="carrinho">
+      <h2>carrinho</h2>
+    </div>
+
+    <!--  ==== section banner ====   -->
+    <nav>
+      <div class="backdrop">
+
+      </div>
+
+      <div class="modal_sidebar">
+        <h1>minha sacola</h1>
+        <div class="modal-profile">
+        </div>
+        <div class="modal-prod">
+          <img src="assets/imgs/product/product-1.png" alt="" >
+        </div>
+      </div>
+    </nav>
+
     <!--  ==== section nossos queridinhos ====   -->
     <section class="nossos-queridinhos">
-      <h3>Nossos Queridinhos</h3>
+      <h3>Os Nossos Queridinhos</h3>
+      <div class="container">
+
+        <div class="prod-banner">
+          <img
+            class="img-item"
+            src="assets/imgs/banner/side-banner-1.png"
+            alt=""
+          />
+        </div>
+
+        <div class="prod-banner">
+          <div class="container-2">
+            <div class="box-intem">
+              <img
+              class="img-item"
+              src="assets/imgs/product/product-1.png"
+              alt=""
+            />
+              <p>Guia amarelo para PitBull</p>
+            <img src="assets/imgs/product/rate.png" alt="">
+            <br>
+            <strong> RS 18,90 </strong>
+            <br>
+            <button class="btn-buy">Comprar</button>
+            </div>
+            
+            <div class="box-intem">
+              <img
+              class="img-item"
+              src="assets/imgs/product/product-2.png"
+              alt=""
+            />
+            <p>Coleira para PitBull</p>
+            <img src="assets/imgs/product/rate.png" alt="">
+            <br>
+            <strong> RS 18,90 </strong>
+            <br>
+            <button class="btn-buy">Comprar</button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="prod-banner">
+          <div class="container-2">
+            <div class="box-intem">
+              <img
+              class="img-item"
+              src="assets/imgs/product/product-1.png"
+              alt=""
+            />
+            <p>Guia amarelo para PitBull</p>
+            <img src="assets/imgs/product/rate.png" alt="">
+            <br>
+            <strong> RS 18,90 </strong>
+            <br>
+            <button class="btn-buy">Comprar</button>
+            </div>
+            <div class="box-intem">
+              <img
+              class="img-item"
+              src="assets/imgs/product/product-2.png"
+              alt=""
+            />
+            <p>Guia amarelo para PitBull</p>
+            <img src="assets/imgs/product/rate.png" alt="">
+            <br>
+            <strong> RS 18,90 </strong>
+            <br>
+            <button class="btn-buy">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="prod-banner">
+          <img
+            class="img-item "
+            src="assets/imgs/banner/side-banner-2.png"
+            alt=""
+          />
+        </div>
+      
+    </div>
+
+      </div>
     </section>
 
     <!--  ==== section produtos exclusivos ====   -->
     <section class="produtos-exclusivos">
+
       <!--  ==== carrossel ====   -->
       <div class="container">
         <h3>Produtos Exclusivos</h3>
+        <div class="slider-area">
+          <div class="slider">
 
-        <div class="carrossel">
-          <div class="container" id="img">
-            <img
-              class="img-carrossel"
-              src="assets/imgs/product/product-1.png"
-              alt=""
-            />
-            <img
-              class="img-carrossel"
-              src="assets/imgs/product/product-2.png"
-              alt=""
-            />
-            <img
-              class="img-carrossel"
-              src="assets/imgs/product/product-2.png"
-              alt=""
-            />
-            <img
-              class="img-carrossel"
-              src="assets/imgs/product/product-1.png"
-              alt=""
-            />
+            <div class="item-slide">
+
+              <img class="img-slide" src="assets/imgs/product/product-1.png" alt="">
+              <p>Guia para PitBull</p>
+              <img src="assets/imgs/product/rate.png" alt="">
+              <br>
+              <strong> RS 18,90 </strong>
+              <br>
+              <button class="btn-buy">Comprar</button>
+            </div>
+
+            <div class="item-slide">
+              
+              <img class="img-slide" src="assets/imgs/product/product-2.png" alt="">
+              <p>Coleira para PitBull</p>
+              <img src="assets/imgs/product/rate.png" alt="">
+              <br>
+              <strong> RS 18,90 </strong>
+              <br>
+              <button class="btn-buy">Comprar</button>
+            </div>
+
+            <div class="item-slide">
+              
+              <img class="img-slide" src="assets/imgs/product/product-1.png" alt="">
+              <p>Guia para PitBull</p>
+              <img src="assets/imgs/product/rate.png" alt="">
+              <br>
+              <strong> RS 18,90 </strong>
+              <br>
+              <button class="btn-buy">Comprar</button>
+            </div>
+
+            <div class="item-slide">
+              
+              <img class="img-slide" src="assets/imgs/product/product-2.png" alt="">
+              <p>Coleira para PitBull</p>
+              <img src="assets/imgs/product/rate.png" alt="">
+              <br>
+              <strong> RS 18,90 </strong>
+              <br>
+              <button class="btn-buy">Comprar</button>
+            </div>
           </div>
         </div>
       </div>
+
     </section>
+
+     <!--  ==== Banner footer ====   -->
+
+    <section class="footer-banner">
+
+      <div class="container">
+        
+         <div class="prod-banner">
+          <img class="img-intem" src="assets/imgs/banner/footer-banner-1.png" alt="" srcset="">
+        </div>
+
+        <div class="prod-banner">
+          <img class="img-intem" src="assets/imgs/banner/footer-banner-2.png" alt="" srcset="">
+        
+        </div>
+      </div>
+
+    </section>
+
+    <!--  ==== section Mais Vendidos ====   -->
+    <section class="mais-vendidos">
+      <div>
+        <h3>Mais Vendidos</h3>
+        <p></p>
+      </div>
+    </section>
+
+    <!--  ==== Footer ====   -->
     <footer>
       <div class="footer-logo">
         <img src="assets/imgs/header/logo.png" alt="" />
@@ -137,7 +306,14 @@
       </div>
     </footer>
 
-    <!--  ==== JS main link ====   -->
-    <script src="main.js"></script>
+    <!--  ==== JQuery link ====   -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!--  ==== JQuery carrossel ====   -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+   <!--  ==== JS main link ====   -->
+   <script src="main.js"></script>
+
   </body>
 </html>
