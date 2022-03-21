@@ -80,6 +80,7 @@ $('.slider').slick({
     // instead of a settings object
   ]
 })
+
 /* =======shop cart ========= */
 
 const itens = [
@@ -118,13 +119,13 @@ atualizarCarrinho = () => {
     if (val.qnt > 0) {
       containerCarrinho.innerHTML +=
         `
-    <p>` +
+         <p>` +
         val.nome +
         ` | quantidade ` +
         val.qnt +
         `</p>
-    <hr>
-  `
+        <hr>
+        `
     }
   })
 }
