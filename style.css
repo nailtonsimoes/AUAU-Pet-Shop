@@ -16,7 +16,7 @@ main {
   height: 92vh;
 }
 
-a {
+li a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   transition: 0.3s;
@@ -347,7 +347,7 @@ nav {
 
 /* ==================-- Footer banner --==================*/
 
-.footer-banner {
+/* .footer-banner {
   height: auto;
   max-width: 100%;
   width: auto;
@@ -356,9 +356,9 @@ nav {
   display: grid;
   text-align: center;
   align-items: center;
-}
+} */
 
-.footer-banner .contaier {
+/* .footer-banner .contaier {
   width: 10%;
   height: auto;
   grid-template-columns: repeat(2, 1fr);
@@ -366,37 +366,33 @@ nav {
   grid-row-gap: 100px;
   justify-content: center;
   display: grid;
-}
-
-.footer-banner .contaier .prod-banner {
-  position: relative;
-}
+} */
 
 /* ==================-- Footer --==================*/
 footer {
-  position: relative;
   max-width: 100%;
   width: auto;
   height: auto;
   padding: 50px 150px;
   align-items: center;
-  text-align: center;
+  text-align: left;
+  justify-content: center;
 }
 
-footer .container {
+/* footer .container {
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0px;
-}
+} */
 
-footer .container .sec h2 {
+/* footer .container .sec h2 {
   position: relative;
   font-weight: 500;
   margin-bottom: 15px;
   margin-top: 40px;
   text-align: left;
-}
+} */
 
 .sci {
   margin-top: 20px;
@@ -405,10 +401,14 @@ footer .container .sec h2 {
 
 .sci li {
   list-style: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .sci li a {
   display: inline-block;
+  text-decoration: none;
 }
 
 @media (max-width: 991px) {
@@ -417,10 +417,6 @@ footer .container .sec h2 {
     padding: auto;
     align-items: center;
     justify-content: center;
-  }
-
-  footer .container {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -460,7 +456,5 @@ footer .footer-logo {
 .brands {
   margin-top: 50px;
   margin-bottom: 0;
-}
-footer .confie {
-  text-align: left;
+  text-align: center;
 }
