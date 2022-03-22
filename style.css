@@ -108,7 +108,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #ffff;
   height: 15vh;
 }
@@ -347,6 +346,18 @@ nav {
 
 /* ==================-- Footer banner --==================*/
 
+@media (max-width: 600px) {
+  .footer-banner {
+    width: 80%;
+    max-width: 430px;
+  }
+  .margin {
+    margin: 15px 0px;
+  }
+}
+.footer-banner {
+  width: 100%;
+}
 /* .footer-banner {
   height: auto;
   max-width: 100%;
@@ -420,7 +431,7 @@ footer {
   }
 }
 
-@media (max-width: 771px) {
+@media (max-width: 991px) {
   footer {
     margin: 0;
     padding: 0;
