@@ -218,9 +218,7 @@ nav {
 }
 /* ==================-- Banner Section --==================*/
 .banner-img {
-  max-width: 100%;
-
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -357,6 +355,7 @@ nav {
 }
 .footer-banner {
   width: 100%;
+  margin-bottom: 30px;
 }
 /* .footer-banner {
   height: auto;
@@ -378,6 +377,8 @@ nav {
   justify-content: center;
   display: grid;
 } */
+
+/* ==================-- Mais Vendidos --==================*/
 
 /* ==================-- Footer --==================*/
 footer {
