@@ -46,7 +46,7 @@ mobileNavbar.init()
 
 /* carrossel */
 $('.slider').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
   slidesToShow: 4,
@@ -58,7 +58,7 @@ $('.slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true
+        dots: false
       }
     },
     {
